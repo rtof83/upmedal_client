@@ -4,19 +4,19 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home"
+      "menu-item#category-promotional",
+      "menu-item#category-album"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-promotional": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-promotional",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "PROMOÇÃO",
         "text": "PROMOÇÃO"
@@ -24,15 +24,15 @@
     }
   },
 
-  "menu-item#category-home": {
+  "menu-item#category-album": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-album",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "ALBUM",
         "text": "ALBUM"

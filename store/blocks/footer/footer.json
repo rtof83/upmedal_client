@@ -11,7 +11,6 @@
 
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "social-networks",
       "share"
     ],
     "props": {
@@ -23,34 +22,12 @@
 
   "share": {
     "props": {
-      "social": {"Facebook": "false", "Twitter": "false", "WhatsApp": "true", "Pinterest": "false"}
-    }
-  },
-
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        },
-        {
-          "name": "WhatsApp",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
+      "social": {
+        "Facebook": false,
+        "Twitter": false,
+        "WhatsApp": true,
+        "Pinterest": false
+      }
     }
   },
 
@@ -88,6 +65,7 @@
     },
     "children": ["vtex.menu@2.x:menu#footer-mobile"]
   },
+
   "rich-text#footer-mobile": {
     "props": {
       "text": "All stock and product photos are from photos.icons8.com",

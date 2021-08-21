@@ -80,6 +80,12 @@
       "fullWidth": false,
       "blockClass": "products-list"
     }
+  },
+
+  "newsletter": {
+    "props":{
+      "blockClass": "news"
+    }
   }
 
 //  "info-card#home": {

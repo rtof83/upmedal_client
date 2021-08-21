@@ -50,3 +50,7 @@
 .sliderLayoutContainer--products-list {
   height: auto;
 }
+
+.paginationDot--isActive {
+  background-color:rgb(89, 255, 0);
+}

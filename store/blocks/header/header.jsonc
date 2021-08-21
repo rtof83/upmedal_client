@@ -65,6 +65,7 @@
       //"flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
+      "flex-layout.col#spacer",
       //"locale-switcher",
       //"login",
       "minicart.v2"
@@ -102,7 +103,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
+      "url": "https://raw.githubusercontent.com/rtof83/upmedal_client/main/images/upmedal.png",
       "width": "180"
     }
   },
@@ -151,7 +152,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
+      "url": "https://raw.githubusercontent.com/rtof83/upmedal_client/main/images/upmedal.png",
       "width": "120"
     }
   }
