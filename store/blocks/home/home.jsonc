@@ -24,11 +24,11 @@
     "props": {
       "images": [
         {
-          "image": "https://images.tcdn.com.br/img/img_prod/698112/1626789802_outlet_retroland_420x180.png"
+          "image": "https://raw.githubusercontent.com/rtof83/upmedal_client/main/images/banner01.png"
           //"mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         },
         {
-          "image": "http://personalize10.com.br/image/cache/catalog/Novos%20produtos/site%20banner02-1140x380.jpg"
+          "image": "https://raw.githubusercontent.com/rtof83/upmedal_client/main/images/banner02.png"
           //"mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -70,7 +70,7 @@
 
   "slider-layout#demo-products": {
     "props": {
-      "id": "products-list",
+      //"id": "products-list",
       "itemsPerPage": {
         "desktop": 2,
         "tablet": 2,
@@ -78,7 +78,7 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "products-list"
     }
   }
 

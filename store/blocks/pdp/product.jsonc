@@ -174,10 +174,10 @@
   "share#default": {
     "props": {
       "social": {
-        "Facebook": true,
+        "Facebook": false,
         "WhatsApp": true,
         "Twitter": false,
-        "Pinterest": true
+        "Pinterest": false
       }
     }
   }
