@@ -1,0 +1,112 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      //"flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      //"info-card#home",
+      //"rich-text#question",
+      //"rich-text#link",
+      "newsletter"
+    ]
+  },
+
+  "flex-layout.row#demo": {
+    "children": ["list-context.image-list#demo"]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "images": [
+        {
+          "image": "https://images.tcdn.com.br/img/img_prod/698112/1626789802_outlet_retroland_420x180.png"
+          //"mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "http://personalize10.com.br/image/cache/catalog/Novos%20produtos/site%20banner02-1140x380.jpg"
+          //"mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "slideTransition": { "speed": 200, "delay": 0, "timing": "" }
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## inserir tab",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  "slider-layout#demo-products": {
+    "props": {
+      "id": "products-list",
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+
+//  "info-card#home": {
+//    "props": {
+//      "id": "info-card-home",
+//      "isFullModeStyle": false,
+//      "textPosition": "left",
+//      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+//      "headline": "Clearance Sale",
+//      "callToActionText": "DISCOVER",
+//      "callToActionUrl": "/sale/d",
+//      "blockClass": "info-card-home",
+//      "textAlignment": "center"
+//    }
+//  }
+
+//  "rich-text#question": {
+//    "props": {
+//      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+//      "blockClass": "question"
+//    }
+//  },
+//
+//  "rich-text#link": {
+//    "props": {
+//      "text": "\n**Reach us at**\nwww.vtex.com.br",
+//      "blockClass": "link"
+//    }
+//  }
+}
