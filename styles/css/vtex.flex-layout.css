@@ -104,6 +104,8 @@
 
 .flexRowContent--menu-row {
   background-color: rgb(110, 110, 110);
+  position: fixed;
+  bottom: 0;
 }
 
 .flexRow--carousel-block {

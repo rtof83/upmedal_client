@@ -73,7 +73,11 @@
 }
 
 .logoLink {
-  justify-content: left;
+  padding-left: 0rem;
+}
+
+.newsletter {
+  padding-bottom: 4rem;
 }
 
 @media only screen and (min-width: 640px) {
@@ -124,10 +128,13 @@
 }
 
 .searchBarContainer {
-  width: 550px;
+  width: 560px;
 }
 
 .searchIcon {
   color: white;
 }
 
+.shareContainer {
+  justify-content: center;
+}

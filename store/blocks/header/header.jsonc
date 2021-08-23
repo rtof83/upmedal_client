@@ -43,12 +43,9 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      //"flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
       "flex-layout.col#spacer",
-      //"locale-switcher",
-      //"login",
       "minicart.v2#desktop"
     ]
   },
