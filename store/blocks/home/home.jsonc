@@ -16,7 +16,10 @@
   },
 
   "flex-layout.row#demo": {
-    "children": ["list-context.image-list#demo"]
+    "children": ["list-context.image-list#demo"],
+    "props": {
+      "blockClass": "carousel-block"
+    }
   },
 
   "list-context.image-list#demo": {
@@ -51,7 +54,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## inserir tab",
+      "text": "### você está vendo produtos",
       "blockClass": "shelfTitle"
     }
   },
@@ -87,32 +90,4 @@
       "blockClass": "news"
     }
   }
-
-//  "info-card#home": {
-//    "props": {
-//      "id": "info-card-home",
-//      "isFullModeStyle": false,
-//      "textPosition": "left",
-//      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-//      "headline": "Clearance Sale",
-//      "callToActionText": "DISCOVER",
-//      "callToActionUrl": "/sale/d",
-//      "blockClass": "info-card-home",
-//      "textAlignment": "center"
-//    }
-//  }
-
-//  "rich-text#question": {
-//    "props": {
-//      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-//      "blockClass": "question"
-//    }
-//  },
-//
-//  "rich-text#link": {
-//    "props": {
-//      "text": "\n**Reach us at**\nwww.vtex.com.br",
-//      "blockClass": "link"
-//    }
-//  }
 }

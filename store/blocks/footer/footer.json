@@ -4,9 +4,7 @@
   },
 
   "footer-layout.desktop": {
-    "children": [
-      "flex-layout.row#footer-1-desktop"
-    ]
+    "children": ["flex-layout.row#footer-1-desktop"]
   },
 
   "flex-layout.row#footer-1-desktop": {
@@ -16,7 +14,8 @@
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 3,
+      "fullWidth": true
     }
   },
 
@@ -28,48 +27,6 @@
         "WhatsApp": true,
         "Pinterest": false
       }
-    }
-  },
-
-  "footer-layout.mobile": {
-    "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
-    ]
-  },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
-    }
-  },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
     }
   }
 }

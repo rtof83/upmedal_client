@@ -18,17 +18,21 @@
 
 .flexRowContent--menu-link {
   background-color: #03044e;
-  color: #fff;
+  color: #ffffff;
 }
 
 .flexRowContent--main-header {
-  background-color: rgba(0,0,0,.8);
+  background-color: rgb(33, 33, 33);
+}
+
+.flexRow--main-header {
+  background-color: rgb(33, 33, 33);
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgb(33, 33, 33);
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -92,4 +96,16 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--menu-row {
+  background-color: rgb(110, 110, 110);
+}
+
+.flexRowContent--menu-row {
+  background-color: rgb(110, 110, 110);
+}
+
+.flexRow--carousel-block {
+  padding-top: 1rem;
 }

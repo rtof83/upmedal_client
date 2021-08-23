@@ -5,10 +5,9 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
   justify-content: center;
   text-align: center;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgb(48, 48, 48);
 }
 
 .headingLevel2--shelfTitle {
@@ -91,5 +90,5 @@
 }
 
 .heading {
-  color: #ffffff;
+  color: rgb(89, 255, 0);
 }
